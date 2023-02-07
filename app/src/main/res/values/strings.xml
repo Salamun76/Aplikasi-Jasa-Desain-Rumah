@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bulihuma</string>
+    <string name="title_home">Home</string>
+    <string name="title_furnitur">Furnitur</string>
+    <string name="title_profil">Profil</string>
+    <string name="tittle_perhitungan">Estimator</string>
+    <string name="tittle_perusahaan">Perusahaan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

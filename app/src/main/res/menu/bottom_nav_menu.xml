@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_furnitur"
+        android:icon="@drawable/furniture"
+        android:title="@string/title_furnitur" />
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/profil"
+        android:title="@string/title_profil" />
+    <item
+        android:id="@+id/navigation_estimator"
+        android:icon="@drawable/perhitungan"
+        android:title="@string/tittle_perhitungan"/>
+    <item
+        android:id="@+id/navigation_perusahaan"
+        android:icon="@drawable/perusahaan"
+        android:title="@string/tittle_perusahaan"/>
+
+</menu>

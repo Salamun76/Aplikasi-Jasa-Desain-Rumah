@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.salamun.bulihuma.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_furnitur"
+        android:name="com.salamun.bulihuma.ui.furnitur.FurniturFragment"
+        android:label="@string/title_furnitur"
+        tools:layout="@layout/fragment_furnitur" />
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.salamun.bulihuma.ui.profil.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/navigation_estimator"
+        android:name="com.salamun.bulihuma.ui.estimator.EstimatorFragment"
+        android:label="@string/tittle_perhitungan"
+        tools:layout="@layout/fragment_estimator" />
+
+    <fragment
+        android:id="@+id/navigation_perusahaan"
+        android:name="com.salamun.bulihuma.ui.perusahaan.PerusahaanFragment"
+        android:label="@string/tittle_perusahaan"
+        tools:layout="@layout/fragment_perusahaan" />
+
+</navigation>
